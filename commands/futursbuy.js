@@ -72,7 +72,13 @@ module.exports = {
                         drain : drain
                     }
 
-                    const datastr = JSON.stringify(data, null, '\t');
+                    data2.Companys[company].buy += 1
+                    data2.butcnt += 1
+
+                    datastr = JSON.stringify(data2, null, '\t');
+                    fs.writeFileSync('./lib/Companys.json', datastr);
+
+                    datastr = JSON.stringify(data, null, '\t');
                     fs.writeFileSync('./lib/UserData.json', datastr);
 
                     const embed = new MessageEmbed()

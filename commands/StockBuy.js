@@ -49,7 +49,13 @@ module.exports = {
                         data.Users[interaction.user.id].StockAccount.stock[company].cnt += value
                         data.Users[interaction.user.id].StockAccount.stock[company].principal += data2.Companys[company].price * value
 
-                        const datastr = JSON.stringify(data, null, '\t');
+                        data2.Companys[company].buy += 1
+                        data2.butcnt += 1
+
+                        var datastr = JSON.stringify(data2, null, '\t');
+                        fs.writeFileSync('./lib/Companys.json', datastr);
+
+                        datastr = JSON.stringify(data, null, '\t');
                         fs.writeFileSync('./lib/UserData.json', datastr);
 
                         const embed = new MessageEmbed()
@@ -67,7 +73,13 @@ module.exports = {
                             principal : data2.Companys[company].price * value
                         }
 
-                        const datastr = JSON.stringify(data, null, '\t');
+                        data2.Companys[company].buy += 1
+                        data2.butcnt += 1
+
+                        var datastr = JSON.stringify(data2, null, '\t');
+                        fs.writeFileSync('./lib/Companys.json', datastr);
+
+                        datastr = JSON.stringify(data, null, '\t');
                         fs.writeFileSync('./lib/UserData.json', datastr);
 
                         const embed = new MessageEmbed()
