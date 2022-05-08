@@ -1,0 +1,22 @@
+{
+	"channel": {
+		"logchannel": "957486407893524520",
+		"writing": "957568531573125161"
+	},
+	"horse_per": {
+		"st": 50,
+		"nd": 30,
+		"th": 20
+	},
+	"t": 0.1,
+	"stock_per": 0,
+	"stock_time": 240,
+	"writingReward": 100,
+	"coin_staking": "959100438513352716",
+	"staking_value": 100,
+	"staking_time": 2,
+	"staking_expect": 19,
+	"horse": 3,
+	"stamp_channel": "967262559302463579",
+	"stamp_price": "500"
+}

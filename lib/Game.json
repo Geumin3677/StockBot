@@ -1,0 +1,11 @@
+{
+	"horse_racing": {
+		"Participants": {
+		},
+		"list": ""
+	},
+	"russian_roulette": {
+		"is_gaming": false,
+		"participants": {}
+	}
+}

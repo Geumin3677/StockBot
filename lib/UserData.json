@@ -1,0 +1,25 @@
+{
+	"Users": {
+		"527841947730313217": {
+			"UserName": "곰곰이",
+			"UserProfileUrl": "https://cdn.discordapp.com/avatars/527841947730313217/6acfe7311240c31861d629eabdb0afe6.webp",
+			"NormalAccount": 100004000,
+			"StockAccount": {
+				"deposit": 99619.3,
+				"stock": {},
+				"ftstock": {}
+			}
+		},
+		"881733167285928036": {
+			"UserName": "ABLEA",
+			"UserProfileUrl": "https://cdn.discordapp.com/avatars/881733167285928036/7fefeeedc2ff17d375193c4ae7f00c68.webp",
+			"NormalAccount": 0,
+			"StockAccount": {
+				"deposit": 0,
+				"stock": {},
+				"ftstock": {}
+			}
+		}
+	},
+	"ft": []
+}
